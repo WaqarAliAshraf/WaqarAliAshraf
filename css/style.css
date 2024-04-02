@@ -1,0 +1,402 @@
+/* ------------------------------------------------
+general css are starts here
+------------------------------------------------ */
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: #4CAF4F;
+}
+
+.hero,
+.about,
+.pixcelgrade,
+.reinvent-itself,
+.design,
+.pricing,
+.blog {
+    margin-top: 50px;
+}
+
+.reinvent-itself,
+.pricing,
+.suscipit,
+.banner-wrapper {
+    background-color: #F5F7FA;
+}
+
+/* ------------------------------------------------
+general css are ends here
+------------------------------------------------ */
+/* ------------------------------------------------
+navbar css are starts  here
+------------------------------------------------ */
+
+.navbar {
+
+    color: #4D4D4D;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #F5F7FA;
+    padding: 12px 0px;
+    border-bottom: 1px solid #fff;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+.log {
+    color: #4CAF4F;
+    margin-right: 24px;
+}
+
+.navbar .register {
+    padding: 10px 16px;
+    border-radius: 4px;
+    margin-top: 0;
+}
+
+.register {
+    background-color: #4CAF4F;
+    padding: 13px 30px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.navbar .img-fluid,
+footer .img-fluid {
+    width: 160px;
+}
+
+/* ------------------------------------------------
+navbar css are ends here
+------------------------------------------------ */
+/* ------------------------------------------------
+banner-wrapper css are starts here
+------------------------------------------------ */
+.banner-wrapper {
+    padding: 100px 0px;
+}
+
+.banner-wrapper .register {
+    margin-top: 15px;
+}
+
+.banner-wrapper h1 {
+    line-height: 69px;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #4CAF4F;
+}
+
+.carousel-indicators {
+    bottom: -80;
+}
+
+/* ------------------------------------------------
+banner-wrapper css are ends here
+------------------------------------------------ */
+/* ------------------------------------------------
+hero section css are starts here
+------------------------------------------------ */
+
+
+.owl-carousel .owl-stage-outer {
+    padding: 0px 30px;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+
+
+/* ------------------------------------------------
+hero section css are ends here
+------------------------------------------------ */
+/* ------------------------------------------------
+about section css are starts here
+------------------------------------------------ */
+
+/* .about h2 {
+    font-size: 30px;
+} */
+
+.about .card {
+    padding: 25px 30px;
+    box-shadow: 0px 1px 1px 2px rgba(0, 0, 0, 0.20);
+    border-color: #fff;
+    height: 100%;
+    position: inherit;
+}
+
+  .img-style {
+    height: 40px;
+    width: 50px;
+    background-color: #e8f5e9;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    margin: auto;
+    /* opacity: 0.9; */
+}
+.image{
+    position: relative;
+}
+.image .img-fluid {
+    position: absolute;
+    margin: auto;
+    top: -5;
+    right: 43;
+    left: 0;
+}
+
+
+.about .card h2 {
+    margin-top: 10px;
+}
+
+/* ------------------------------------------------
+about section css are ends here
+------------------------------------------------ */
+/* ------------------------------------------------
+pixcelgrade section css are starts here
+------------------------------------------------ */
+
+.pixcelgrade p {
+    font-size: 15px;
+}
+
+.pixcelgrade h2 {
+    font-size: 37px;
+}
+
+/* ------------------------------------------------
+pixcelgrade section css are ends here
+------------------------------------------------ */
+/* ------------------------------------------------
+reinvent-itself section css are starts here
+------------------------------------------------ */
+.reinvent-itself,
+.pricing,
+.suscipit {
+    padding: 50px 0px;
+}
+
+.reinvent-itself h3 {
+    font-size: 30px;
+}
+
+/* .text {
+    padding-left: 25px;
+} */
+
+/* ------------------------------------------------
+reinvent-itself section css are ends here
+------------------------------------------------ */
+/* ------------------------------------------------
+design section css are starts here
+------------------------------------------------ */
+
+.design h2 {
+    font-size: 36px;
+}
+
+.design p {
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+/* ------------------------------------------------
+design section css are ends here
+------------------------------------------------ */
+/* ------------------------------------------------
+blog section css are starts here
+------------------------------------------------ */
+
+.blog .img-fluid {
+    border-radius: 10px;
+}
+
+.blog .card {
+    padding: 20px 28px;
+    position: absolute;
+    bottom: -58;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    background-color: #F5F7FA;
+    box-shadow: 2px 2px 2px 2px rgba(171, 190, 209, 0.40);
+}
+
+/* ------------------------------------------------
+blog section css are ends here
+------------------------------------------------ */
+/* ---------------------------------------------------------------------
+section suscipit css are starts here
+--------------------------------------------------------------------- */
+.suscipit {
+    margin-top: 100px;
+}
+
+.suscipit h2 {
+    font-size: 40px;
+}
+
+.suscipit .register {
+    margin-top: 15px;
+}
+
+/* ---------------------------------------------------------------------
+section suscipit css are ends here
+--------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------
+footer are starts here
+----------------------------------------------------------------------- */
+
+footer {
+    background-color: #263238;
+    color: white;
+    padding-top: 50px;
+}
+
+footer h3 {
+    color: white;
+}
+
+.form-control {
+    margin-top: 35px;
+    background-color: #4D4D4D;
+    border: none;
+    width: auto;
+   
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+.form-control:focus {
+    background-color: #4D4D4D;
+    border-color: 0;
+    box-shadow: none;
+}
+
+footer a {
+    line-height: 36px;
+}
+
+footer .fa-solid,
+.fa-brands {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #4D4D4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+footer p {
+    padding-top: 40px;
+}
+form {
+    position: relative;
+}
+.icon .fa-solid{
+    position: absolute;
+    top: 0;
+    right: -35;
+}
+
+
+/* ---------------------------------------------------------------
+media quries are starts here
+--------------------------------------------------------------- */
+@media (max-width:767px) {
+    h1 {
+        font-size: 29px;
+    }
+
+    p {
+        font-size: 9px;
+        line-height: 15px;
+    }
+
+    .register {
+        padding: 7px 15px;
+    }
+
+    .pixcelgrade h2 {
+        font-size: 20px;
+    }
+
+    .pixcelgrade p {
+        font-size: 10px;
+    }
+
+    .design h2 {
+        font-size: 17px;
+    }
+
+    .design p {
+        font-size: 10px;
+    }
+
+    .blog .card {
+        bottom: -37px;
+        padding: 10px 12px;
+    }
+
+}
+
+@media (max-width:320px) {
+    .about .img-style {
+        right: 55px;
+    }
+}
